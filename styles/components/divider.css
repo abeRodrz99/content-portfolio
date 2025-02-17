@@ -1,0 +1,10 @@
+.divider {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.solid {
+    border-top: 2px solid black;
+    width: 75%;
+}
