@@ -1,0 +1,22 @@
+.bio {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.headshot { 
+    width: 30%;
+}
+
+.bio_copy {
+    width: 40%;
+    font-size: 1.2rem;
+    align-content: center;
+    margin-right: 1rem;
+}
+
+.bio_intro {
+    color: var(--accent_color);
+    font-size: 2rem;
+    font-weight: bold;
+}

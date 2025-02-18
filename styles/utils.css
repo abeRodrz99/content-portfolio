@@ -1,0 +1,65 @@
+.container {
+    width: 1536px;
+    margin-inline: auto;
+    padding-inline: 0.5rem;
+}
+
+button {
+    padding: 5px 15px;
+    border: none;
+    background: var(--button_color);
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:active {
+    background-color: #4C4C4D;
+    transform: translateY(1px);
+}
+
+
+/* media queries */
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
+}
