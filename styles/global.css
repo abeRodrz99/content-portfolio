@@ -16,8 +16,16 @@ body {
 }
 
 :root {
-    --main_color: #F9F9F9;
-    --accent_color: #9DB4AB;
-    --button_color: #39393a;
+    --main-color: #F9F9F9;
+    --accent-color: #9DB4AB;
+    --button-color: #39393a;
+
+    --ff-title: "oswald", serif;
+    --ff-body: "Source Sans 3", serif;
+
+    --fw-title: 500;
+    --fw-bold: 800;
+    --fw-body: 400;
+    --fw-nymber: 800;
 }
 

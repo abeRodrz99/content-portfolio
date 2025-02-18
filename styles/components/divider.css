@@ -5,6 +5,9 @@
 }
 
 .solid {
-    border-top: 2px solid black;
+    border: none; 
+    height: 1px; 
     width: 75%;
+    margin: 20px auto; 
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0) 100%);
 }

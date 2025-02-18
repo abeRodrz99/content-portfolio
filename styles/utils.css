@@ -7,7 +7,7 @@
 button {
     padding: 5px 15px;
     border: none;
-    background: var(--button_color);
+    background: var(--button-color);
     color: white;
     cursor: pointer;
     font-family: inherit;

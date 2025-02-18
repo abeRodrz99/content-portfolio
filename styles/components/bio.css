@@ -9,6 +9,8 @@
 }
 
 .bio_copy {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-body);
     width: 40%;
     font-size: 1.2rem;
     align-content: center;
@@ -16,7 +18,9 @@
 }
 
 .bio_intro {
-    color: var(--accent_color);
+    font-family: var(--ff-title);
+    font-weight: var(--fw-title);
+    color: var(--accent-color);
     font-size: 2rem;
     font-weight: bold;
 }
