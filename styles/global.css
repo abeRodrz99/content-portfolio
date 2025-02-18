@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+body {
+    background-color: var(--main_color);
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --main_color: #F9F9F9;
+    --accent_color: #9DB4AB;
+    --button_color: #39393a;
+}
