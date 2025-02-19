@@ -23,30 +23,40 @@
             <hr class="solid">
         </section>
         <section class="filters container">
-            <div  id="filters">
-                <button class="filter_btn" data-filer="all">All</button>
-                <button class="filter_btn" data-filer="seo">SEO</button>
-                <button class="filter_btn" data-filer="general">Investigative</button>
-                <button class="filter_btn" data-filer="Investigative">General Reporting</button>
+            <div id="filters">
+                <button class="filter_btn" data-filter="all">All</button>
+                <button class="filter_btn" data-filter="seo">SEO</button>
+                <button class="filter_btn" data-filter="general">General Reporting</button>
+                <button class="filter_btn" data-filter="investigative">Investigative</button>
             </div>
         </section>
+        
         <section class="content container">
-            <div class="content__card">
+            <div class="content__card" data-category="seo">
                 <img class="content__card-img" src="assets/content/story-image/dead-internet-theory.jpg">
                 <h3 class="content__card-title">What Is the Dead Internet Theory?</h3>
                 <a class="content__card-url" href="https://builtin.com/articles/the-dead-internet-theory" target="blank">Read More</a>
             </div>
-            <div class="content__card">
+            
+            <div class="content__card" data-category="general">
                 <img class="content__card-img" src="assets/content/story-image/fintech-companies-dublin.jpg">
                 <h3 class="content__card-title">10 Fintech Companies in Dublin to Know</h3>
                 <a class="content__card-url" href="https://builtin.com/articles/fintech-companies-in-dublin" target="blank">Read More</a>
             </div>
-            <div class="content__card">
+            
+            <div class="content__card" data-category="investigative">
+                <img class="content__card-img" src="assets/content/story-image/How-to-build-an-e-commerce-website.jpeg">
+                <h3 class="content__card-title">How to build an e-commerce website</h3>
+                <a class="content__card-url" href="https://web.archive.org/web/20241121104415/https://edition.cnn.com/cnn-underscored/money/how-build-ecommerce-website" target="blank">Read More</a>
+            </div>
+
+            <div class="content__card" data-category="investigative">
                 <img class="content__card-img" src="assets/content/story-image/How-to-build-an-e-commerce-website.jpeg">
                 <h3 class="content__card-title">How to build an e-commerce website</h3>
                 <a class="content__card-url" href="https://web.archive.org/web/20241121104415/https://edition.cnn.com/cnn-underscored/money/how-build-ecommerce-website" target="blank">Read More</a>
             </div>
         </section>
-       
+        
+        <script src="scripts.js"></script>
     </body>
 </html>
