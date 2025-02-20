@@ -10,29 +10,42 @@
 
 .content__card {
     width: 25rem;
-    height: 17rem;
-    display: flex;
-    flex-direction: column;
-    border: 2px solid red;
-    overflow: hidden;
+    height: auto; /* Allow flexibility */
+    padding: 1rem; /* More padding for better spacing */
+    border-radius: 10px; /* Smoother rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #fff; /* Clean white background */
+
 }
 
 .content__card-img {
-    width: 24.8rem;
+    width: 23rem;
     height: 200px;
     display: block;
     object-fit: cover;
 }
 
 .content__card-title {
-    font-size: 1.1rem; /* Adjust as needed */
-    white-space: nowrap; /* Ensures title stays on one line */
+    font-size: 1.1rem; 
+    white-space: nowrap; 
     overflow: hidden;
-    text-overflow: ellipsis; /* Adds "..." if text is too long */
+    text-overflow: ellipsis; 
+    font-family: var(--ff-title);
+}
+
+.content__card-url {
+    font-family: var(--ff-body);
+    text-decoration: none;
+    color: #435058;
+}
+
+.content__card-link {
+    text-decoration: none;
+    color: black;
 }
 
 /* annimation */
-
 .content__card {
     opacity: 0;
     transform: translateY(20px);

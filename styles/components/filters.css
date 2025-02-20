@@ -1,4 +1,12 @@
 .filters {
     display: flex;
     justify-content: center;
+    background-color: 3c3c3c;
+}
+
+.filter_btn {
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+    background-color: #435058;
+    font-family: var(--ff-body);
 }
