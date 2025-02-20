@@ -11,8 +11,10 @@
 .content__card {
     width: 25rem;
     height: 17rem;
+    display: flex;
+    flex-direction: column;
     border: 2px solid red;
-
+    overflow: hidden;
 }
 
 .content__card-img {
@@ -20,6 +22,13 @@
     height: 200px;
     display: block;
     object-fit: cover;
+}
+
+.content__card-title {
+    font-size: 1.1rem; /* Adjust as needed */
+    white-space: nowrap; /* Ensures title stays on one line */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Adds "..." if text is too long */
 }
 
 /* annimation */
