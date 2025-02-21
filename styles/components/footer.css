@@ -1,10 +1,14 @@
 .footer {
     background-color: #466591;
-    height: 10rem;
+    min-height: 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    margin-top: auto;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
 }
 
 .footer_web-dev {

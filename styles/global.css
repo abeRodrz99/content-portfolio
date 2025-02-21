@@ -22,10 +22,7 @@ body {
     flex-grow: 1;
 }
 
-.footer {
-    margin-top: auto;
-    padding: 1rem 0;
-}
+
 
 :root {
     --main-color: #F9F9F9;
