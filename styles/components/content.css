@@ -9,13 +9,12 @@
 
 .content__card {
     width: 25rem;
-    height: auto; /* Allow flexibility */
-    padding: 1rem; /* More padding for better spacing */
-    border-radius: 10px; /* Smoother rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    height: auto; 
+    padding: 1rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    background: #fff; /* Clean white background */
-
+    background: #fff; 
 }
 
 .content__card-img {
@@ -23,6 +22,13 @@
     height: 200px;
     display: block;
     object-fit: cover;
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease-in-out;    
+    border-radius: 15px;
+}
+
+.content__card:hover .content__card-img {
+    transform: scale(1.03) translateY(-2px); 
+    opacity: 0.95;
 }
 
 .content__card-title {
