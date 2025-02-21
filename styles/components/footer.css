@@ -1,0 +1,30 @@
+.footer {
+    background-color: #466591;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer_web-dev {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    color: #FFEFD5;
+}
+
+.footer__web-dev-link {
+    text-decoration: none;
+    position: relative;
+}
+
+.footer__web-dev-link:hover {
+    text-decoration: underline;
+    color: #FFEFD5;
+}
+
+.footer__web-dev-link-copy {
+    color: #FFEFD5;
+}
+
