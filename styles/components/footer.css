@@ -1,0 +1,8 @@
+.footer__socials {
+    background-color: #466591;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
