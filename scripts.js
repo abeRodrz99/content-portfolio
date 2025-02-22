@@ -10,9 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 const category = article.getAttribute("data-category");
 
                 if (filter === "all" || category === filter) {
-                    article.style.display = "block"; // Show matching articles
+                    article.style.display = "block"; 
                 } else {
-                    article.style.display = "none"; // Hide others
+                    article.style.display = "none"; 
                 }
             });
         });
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }, {
-        threshold: 0.2, // Adjust to trigger when 20% of the card is visible
+        threshold: 0.2, 
     });
 
     contentCards.forEach((card) => {

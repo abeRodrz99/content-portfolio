@@ -1,12 +1,70 @@
 .filters {
     display: flex;
     justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
     background-color: 3c3c3c;
+
 }
+
 
 .filter_btn {
     padding: 0.25rem 1.5rem;
     font-size: 1rem;
     background-color: #435058;
     font-family: var(--ff-body);
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* md */
+@media (max-width: 768px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+
+
+
+ 
+
+    .filter_btn {
+        font-size: 0.9rem;
+        background-color: #435058;
+        font-family: var(--ff-body);
+        margin: 0;
+    }
+
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .container {
+        width: 100%;
+    }
 }

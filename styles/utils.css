@@ -5,7 +5,6 @@
 }
 
 button {
-    /* padding: 5px 15px; */
     border: none;
     border-radius: 15px;
     background: var(--button-color);
