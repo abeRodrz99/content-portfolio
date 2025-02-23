@@ -136,8 +136,21 @@
 @media (max-width: 475px) {
     .container {
         width: 100%;
+        padding: 10px;
+    }
+
+    .content__card {
+        width: 20rem;
+    }
+
+    .content__card-img {
+        width: 18rem;
+        display: block;
+        align-items: center;
+        object-fit: cover;
     }
 }
+
 
 
 

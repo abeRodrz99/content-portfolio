@@ -17,12 +17,13 @@
 
 .filter_btn {
     background-color: var(--accent-color);
-    color: whitesmoke;
+    color: #FFEFD5;
     padding: 8px 15px;
     margin: 0 0.2rem;
     border: 0.6px solid var(--accent-color);
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out;
+    font-family: var(--ff-body);
 }
 
 .filter_btn:hover {
