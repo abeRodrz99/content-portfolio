@@ -8,11 +8,26 @@
 }
 
 
+/*.filter_btn {*/
+/*    padding: 0.25rem 1.5rem;*/
+/*    font-size: 1rem;*/
+/*    background-color: #435058;*/
+/*    font-family: var(--ff-body);*/
+/*}*/
+
 .filter_btn {
-    padding: 0.25rem 1.5rem;
-    font-size: 1rem;
-    background-color: #435058;
-    font-family: var(--ff-body);
+    background-color: var(--accent-color);
+    color: whitesmoke;
+    padding: 8px 15px;
+    margin: 0 0.2rem;
+    border: 0.6px solid var(--accent-color);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.filter_btn:hover {
+    box-shadow: 0 0 0 1.5px var(--accent-color),
+        2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* 2xl */
@@ -53,12 +68,6 @@
 
  
 
-    .filter_btn {
-        font-size: 0.9rem;
-        background-color: #435058;
-        font-family: var(--ff-body);
-        margin: 0;
-    }
 
 }
 
