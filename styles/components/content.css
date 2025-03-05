@@ -9,13 +9,15 @@
 
 .content__card {
     width: 25rem;
-    height: auto; 
+    height: 17.5rem;
     padding: 1rem; 
     border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    transition: all 0.3s ease-in-out;
     background: #fff; 
 }
+
 
 .content__card-img {
     width: 23rem;
@@ -37,6 +39,7 @@
     overflow: hidden;
     text-overflow: ellipsis; 
     font-family: var(--ff-title);
+    margin-bottom: 0.2rem;
 }
 
 .content__card-url {
@@ -133,8 +136,21 @@
 @media (max-width: 475px) {
     .container {
         width: 100%;
+        padding: 10px;
+    }
+
+    .content__card {
+        width: 20rem;
+    }
+
+    .content__card-img {
+        width: 18rem;
+        display: block;
+        align-items: center;
+        object-fit: cover;
     }
 }
+
 
 
 

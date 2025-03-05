@@ -4,21 +4,21 @@
     padding-inline: 0.5rem;
 }
 
-button {
-    border: none;
-    border-radius: 15px;
-    background: var(--button-color);
-    color: white;
-    font-family: inherit;
-    text-decoration: none;
-    display: inline-block;
-    margin-left: 0.5rem;
-}
+/*button {*/
+/*    border: none;*/
+/*    border-radius: 15px;*/
+/*    background: var(--button-color);*/
+/*    color: white;*/
+/*    font-family: inherit;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    margin-left: 0.5rem;*/
+/*}*/
 
-button:active {
-    background-color: #4C4C4D;
-    transform: translateY(1px);
-}
+/*button:active {*/
+/*    background-color: #4C4C4D;*/
+/*    transform: translateY(1px);*/
+/*}*/
 
 
 /* media queries */
