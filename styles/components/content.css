@@ -65,6 +65,48 @@
     transform: translateY(0);
 }
 
+
+.card-2 {
+    width: 300px;
+    height: 350px;
+    background:  white;
+    border-radius: 8px;
+    border: none;
+    transition: box-shadow 0.3s ease-in-out;
+    
+    margin-bottom: 20px; /* ide organization - NOT NEEDED */
+}
+
+.card-2:hover {
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-2__content-title {
+    margin-bottom: -5px;
+}
+
+.card-2__img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-2__content {
+    padding: 0 20px;
+}
+
+.card-2__content-desc {
+    white-space: normal;
+    font-size: 1rem;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 3.6em;
+    line-height: 1.2em;
+}
+
+
 /* 2xl */
 @media (max-width: 1536px) {
     .container {
