@@ -16,7 +16,7 @@
 /*}*/
 
 .filter_btn {
-    background-color: var(--accent-color);
+    background-color: var(--button-alt-color);
     color: #FFEFD5;
     padding: 8px 15px;
     margin: 0 0.2rem;
