@@ -6,6 +6,7 @@
 
 /* media queries */
 /* 2xl */
+
 @media (max-width: 1536px) {
     .container {
         max-width: 1280px;
