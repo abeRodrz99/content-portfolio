@@ -27,24 +27,14 @@
 }
 
 @media (max-width: 1536px) {
-    .container {
-        max-width: 1280px;
-    }
 }
 
 /* xl */
 @media (max-width: 1280px) {
-    .container {
-        max-width: 1024px;
-    }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-    .container {
-        max-width: 768px;
-    }
-
     .bio_copy {
         width: 50%;
     }
@@ -56,17 +46,12 @@
 
 /* md */
 @media (max-width: 768px) {
-    .container {
-        max-width: 640px;
-    }
-
     .bio_copy {
         width: 70%;
-  
     }
 
     .headshot {
-        width: 50%;
+        width: 70%;
         margin-top: 1.5rem;
     } 
 
@@ -74,14 +59,10 @@
 
 /* sm */
 @media (max-width: 640px) {
-    .container {
-        max-width: 475px;
-    }
+
 }
 
 /* xs */
 @media (max-width: 475px) {
-    .container {
-        width: 100%;
-    }
+
 }
