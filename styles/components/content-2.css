@@ -5,6 +5,7 @@
     gap: 20px;
     margin-top: 1rem;
     margin-bottom: 5rem;
+<<<<<<< HEAD
 }
 
 .annimation {
@@ -26,6 +27,9 @@
 .annimation:hover {
     --_i: 100%;
     transition: .3s, background-size .3s .3s;
+=======
+    width: 50%;
+>>>>>>> parent of 36ca01d (Container fix)
 }
 
 .content__card {
@@ -106,7 +110,8 @@
 /* 2xl */
 @media (max-width: 1536px) {
     .content {
-        width: 100%;
+        width: 70%;
+        border: 2px dashed red;
     }
 }
 
@@ -144,15 +149,7 @@
 
 /* sm */
 @media (max-width: 640px) {
-    .content__card {
-        width: 20rem;
-        height: 350px;
-    }
-
-    .content__card-img {
-        width: 20rem;
-        height: 150px;
-    }
+ 
 }
 
 /* xs */
