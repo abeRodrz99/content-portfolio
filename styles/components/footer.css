@@ -32,9 +32,3 @@
     color: #FFEFD5;
 }
 
-/* md */
-@media (max-width: 768px) {
-    .footer {
-        min-height: 20dvh;
-    }
-}
