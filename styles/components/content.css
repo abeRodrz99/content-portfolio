@@ -65,6 +65,8 @@
     transform: translateY(0);
 }
 
+
+
 /* 2xl */
 @media (max-width: 1536px) {
     .container {
