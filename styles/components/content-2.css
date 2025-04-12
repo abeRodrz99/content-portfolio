@@ -8,19 +8,17 @@
 }
 
 .annimation {
-    --c: #39393a; /* the border color */
-    --b: 2px;    /* the border thickness*/
-    --g: 0.5px;     /* the gap on hover */
+    --c: #39393a; 
+    --b: 2px;    
+    --g: 0px;     
 
-    border-radius: 4px;
-    
     padding: calc(var(--g) + var(--b));
     --_g: #0000 25%,var(--c) 0;
     background: 
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
-       var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
-      conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
-       0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
     transition: .3s, background-position .3s .3s;
     cursor: pointer;
 }
@@ -42,8 +40,12 @@
 
 .content__card:hover {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0px
 }
 
+.content__card:hover .content__card-img {
+    border-radius: 0px;
+}
 
 .content__card-pub {
     margin: 10px 0 5px 0;
@@ -67,6 +69,8 @@
     object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
+
+
 
 .content__card-div {
     padding: 0 20px;
@@ -152,6 +156,6 @@
 }
 
 /* xs */
-@media (max-width: 475px) {
+@media (max-width: 475px) { 
 }
 
