@@ -1,5 +1,5 @@
 .footer {
-    background-color: #466591;
+    background-color: var(--button-color);
     min-height: 10rem;
     display: flex;
     justify-content: center;

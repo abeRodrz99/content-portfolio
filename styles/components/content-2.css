@@ -1,5 +1,14 @@
-.card-2 {
-    width: 300px;
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.content__card {
+    width: 20rem;
     height: 350px;
     background:  white;
     border-radius: 8px;
@@ -10,26 +19,33 @@
     margin-bottom: 20px; /* ide organization - NOT NEEDED */
 }
 
-.card-2:hover {
+.content__card:hover {
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.card-2__content-title {
+.content__card-title {
+    color: blue;
     margin-bottom: -5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;      
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 1rem;
 }
 
-.card-2__img {
-    width: 300px;
+.content__card-img {
+    width: 20rem;
     height: 150px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
 
-.card-2__content {
+.content__card-div {
     padding: 0 20px;
 }
 
-.card-2__content-desc {
+.content__card-desc {
     white-space: normal;
     font-size: 1rem;
     font-weight: normal;
@@ -37,17 +53,21 @@
     text-overflow: ellipsis;
     max-height: 3.6em;
     line-height: 1.2em;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;      
+    -webkit-box-orient: vertical;
 }
 
-.card-2-url {
+.content__card-url {
     text-decoration: none;
 }
 
-.card-2__content-pub {
+.content__card-title {
     color: black;
 }
 
-.card-2__content-title {
+.content__card-desc {
     color: black;
-
 }
+
