@@ -6,6 +6,7 @@
     margin-top: 1rem;
     margin-bottom: 5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .annimation {
@@ -27,6 +28,9 @@
 .annimation:hover {
     --_i: 100%;
     transition: .3s, background-size .3s .3s;
+=======
+    width: 50%;
+>>>>>>> parent of 36ca01d (Container fix)
 =======
     width: 50%;
 >>>>>>> parent of 36ca01d (Container fix)
