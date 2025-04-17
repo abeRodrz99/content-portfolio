@@ -25,12 +25,19 @@
             <hr class="solid">
         </section>
         <section class="filters container">
-            <div id="filters__buttons">
-                <button class="filter_btn" data-filter="all">All</button>
-                <button class="filter_btn" data-filter="seo">SEO</button>
-                <button class="filter_btn" data-filter="general">General Reporting</button>
-                <button class="filter_btn" data-filter="investigative">Investigative</button>
-            </div>
+            <div class="filters__buttons">
+                <input type="radio" class="filter_input" name="filter" id="filter-all" checked>
+                <label class="filter_btn" for="filter-all" data-filter="all">All</label>
+            
+                <input type="radio" class="filter_input" name="filter" id="filter-seo">
+                <label class="filter_btn" for="filter-seo" data-filter="seo">SEO</label>
+            
+                <input type="radio" class="filter_input" name="filter" id="filter-general">
+                <label class="filter_btn" for="filter-general" data-filter="general">General Reporting</label>
+            
+                <input type="radio" class="filter_input" name="filter" id="filter-investigative">
+                <label class="filter_btn" for="filter-investigative" data-filter="investigative">Investigative</label>
+              </div>
         </section>
         
         <section class="content container">

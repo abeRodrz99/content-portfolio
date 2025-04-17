@@ -6,22 +6,50 @@
     margin-bottom: 1rem;
 }
 
-.filter_btn {
-    background-color: var(--button-color);
-    color: #FFEFD5;
-    padding: 8px 15px;
-    margin: 0 0.2rem;
-    border: 0.6px solid #3c3c3c;
-    border-radius: 10px;
-    transition: box-shadow 0.3s ease-in-out;
-    font-family: var(--ff-body);
+.filters__buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    padding: 1rem 0;
+
+  }
+  
+.filter_input {
+    display: none;
 }
 
-.filter_btn:hover {
-    background-color: var(--button-alt-color);
-    box-shadow: 0 0 0 1.5px var(--button-alt-color),
-        2px 4px 10px rgba(0, 0, 0, 0.2);
+.filter_btn {
+    position: relative;
+    font-size: 1.1rem;
+    color: var(--button-color);
+    cursor: pointer;
+    padding-bottom: 4px;
+    background: none;
+    border: none;
+    transition: color 0.3s ease;
+    font-family: var(--ff-body);
+    font-weight: 500;
 }
+
+.filter_btn::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: var(--button-color);
+    transition: width 0.3s ease;
+}
+
+.filter_input:checked + .filter_btn {
+    color: var(--button-color);
+}
+
+.filter_input:checked + .filter_btn::after {
+    width: 100%;
+}
+  
 
 /* 2xl */
 @media (max-width: 1536px) {
