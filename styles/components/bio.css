@@ -27,6 +27,14 @@
     font-weight: bold;
 }
 
+.resume__link-icon {
+    transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 0.1);
+}
+
+.resume__link-icon:hover {
+    transform: scale(1.2);
+}
+
 @media (max-width: 1536px) {
 
 }
