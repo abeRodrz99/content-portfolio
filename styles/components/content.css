@@ -15,8 +15,6 @@
     border: none;
     transition: box-shadow 0.3s ease-in-out;
     text-decoration: none;
-
-
 }
 
 .content__card:hover {
@@ -25,7 +23,7 @@
 
 .content__card-pub {
     margin: 10px 0 5px 0;
-    color: black;
+    color: var(--dark-main-color);
 }
 
 .content__card-title {
@@ -73,7 +71,7 @@
 }
 
 .content__card-desc {
-    color: black;
+    color: var(--dark-main-color);
 }
 
 /* media queries */

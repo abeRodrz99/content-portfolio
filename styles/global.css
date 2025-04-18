@@ -11,7 +11,7 @@
 }
 
 body {
-    background-color: var(--alt-main);
+    background-color: var(--main-color);
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
     display: flex;
@@ -25,7 +25,8 @@ body {
 
 
 :root {
-    --main-color: #F9F9F9;
+    --main-color: #F9F9F9; 
+    --dark-main-color: #39393a;
     --alt-main: #F0F2F5;
     --accent-color: #466591;
     --button-color: #39393a;
